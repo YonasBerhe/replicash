@@ -1,0 +1,20 @@
+# Common attributes
+common: &common
+  adapter: postgresql
+  encoding: utf8
+  pool: 5
+  port:     <%= ENV['DB_PORT']     || ENV['RDS_PORT'] %>
+  host:     <%= ENV['DB_HOSTNAME'] || ENV['RDS_HOSTNAME'] %>
+  database: <%= ENV['DB_NAME']     || ENV['RDS_DB_NAME'] %>
+  username: <%= ENV['DB_USERNAME'] || ENV['RDS_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] || ENV['RDS_PASSWORD'] %>
+
+development:
+  <<: *common
+test:
+  <<: *common
+  database: reveal_test
+
+production:
+  <<: *common
+  pool: 16  # to equal max-pool-size in passenger config

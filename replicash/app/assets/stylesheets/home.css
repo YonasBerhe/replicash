@@ -1,0 +1,212 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
+
+ body {
+   padding-top: 50px;
+   padding-left: 400px;
+   background-color: #66CD00;
+
+
+
+}
+ .container {
+  color: black;
+}
+
+.templateforadd {
+  border: 1px 2px;
+  border-color: #D3D3D3;
+  border-style: solid;
+  width: 600px;
+  height: 600px;
+  background: white;
+  }
+
+  .couponcontain {
+    padding-top: 470px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+  .couponcontain h1, a {
+    font-size: 25px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    width: 300px;
+    border-color: #D3D3D3;
+    background-color: #D3D3D3;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .couponcontain h2 {
+    font-size: 18px;
+    padding-left: 35px;
+    font-weight: lighter;
+    margin-top: -320px;
+  }
+  .coupouncode-c {
+
+}
+
+  #couponcode {
+    padding-left: 200px;
+  }
+  .whiteborder{
+    background-color: white;
+    border-style: solid;
+    margin-right: 100px;
+    width: 500px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-right: 50px;
+    border-color: #66CD00;
+
+  }
+.branding-logo {
+    padding-left: 180px;
+    padding-top: 25px;
+}
+
+  .content {
+    margin-top: -30px;
+  }
+  .content h3{
+    font-size: 15px;
+    width: 500px;
+    font-weight: bold;
+    padding-left: 170px;
+    padding-top: 50px;
+    font-style: oblique;
+
+}
+
+.content h2{
+  font-size: 15px;
+  width: 500px;
+  font-weight: bold;
+  padding-left: 160px;
+  padding-top: 50px;
+  font-style: oblique;
+
+}
+
+.content h1{
+  font-size: 15px;
+  width: 500px;
+  font-weight: bold;
+  padding-left: 248px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-style: oblique;
+
+}
+
+
+.content a {
+  font-size: 17px;
+  border-style: transparent;
+  border-radius: 0px;
+  color:  blue ;
+  border-style: none;
+  background-color: transparent;
+  margin-left: -10px;
+
+}
+
+.field{
+
+}
+.follow-us-pls {
+  padding-left: 225px;
+}
+.landing-followuspls {
+  padding-left: 410px;
+  ;padding-top: 50px;
+}
+
+.couponcontain h1, a {
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+.landingpage {
+  border: 1px 2px;
+  border-color: #D3D3D3;
+  border-style: solid;
+  width: 1000px;
+  height: 1000px;
+  background: white;
+  }
+  .branding h1 {
+    font-size: 200px;
+    padding-left: 40px;
+    padding-top: 200px;
+  }
+  .branding h2 {
+    font-size: 40px;
+    padding-left: 40px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: -100px;
+    padding-left: 320px;
+  }
+
+
+  .landing-content {
+    margin-top: -30px;
+  }
+  .landing-content h3{
+    font-size: 15px;
+    width: 500px;
+    font-weight: bold;
+    padding-left: 170px;
+    padding-top: 50px;
+    font-style: oblique;
+
+  }
+
+  .landing-content h2{
+  font-size: 15px;
+  width: 500px;
+  font-weight: bold;
+  padding-left: 160px;
+  padding-top: 50px;
+  font-style: oblique;
+
+  }
+
+  .landing-content h1{
+  font-size: 15px;
+  width: 500px;
+  font-weight: bold;
+  padding-left: 248px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-style: oblique;
+
+  }
+
+
+  .landing-content a {
+  font-size: 17px;
+  border-style: transparent;
+  border-radius: 0px;
+  color:  blue ;
+  border-style: none;
+  background-color: transparent;
+  margin-left: -10px;
+
+  }
+  .navbar {
+    width: 906px;
+    height: 50px;
+    background-color: black;
+    padding-left: 100px;
+
+
+  }
