@@ -1,1 +1,1 @@
-I work on this porject during angelhack.
+Rails app I worked on during Angel Hack!
